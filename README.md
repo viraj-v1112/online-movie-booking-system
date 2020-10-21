@@ -1,4 +1,5 @@
 The Backend for this project can be found on : https://github.com/ritiksingh8/BoxOffice-API
+
 For running Backend download or clone the repository , navigate to BoxOffice folder and execute command:
 python manage.py runserver
 
