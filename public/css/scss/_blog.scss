@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box; }
+
+h3.bloghead {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Arial', san-serif;
+  font-weight: normal; }
+
+a:hover {
+  text-decoration: none; }
+
+/* Trái */
+.leftcolumn {
+  float: left;
+  width: 75%; }
+
+/* Phải */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px; }
+
+/* Placeholder cho những phần trống/chưa có thông tin */
+.placeholder {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px; }
+
+/* Cho từng bài */
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D5D5D5;
+  font-size: 17px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px; }
+
+/*Button*/
+.button {
+  background-color: white;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #303030;
+  border-radius: 4px; }
+
+.button1:hover {
+  background-color: #303030;
+  color: white; }
+
+/**/
+.blog_row {
+  font-family: san-serif;
+  padding: 20px; }
+
+/* Clear floats after the columns */
+.blog_row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px; }
+
+/* Đổi màu khi hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black; }
+
+/*extra*/
+.headdingGray {
+  margin-top: 5px;
+  color: #c3c6c7;
+  font-size: 14px; }
+
+/*Float image*/
+.imgfloat {
+  width: 280px;
+  height: 170px;
+  float: left;
+  margin-right: 20px; }
+
+.overflow {
+  overflow: auto;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0; }
+  .center_button {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .center_button1 {
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 35%;
+  }
+  .center_textbox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .submita {
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+  }
+  .submitb {
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+  }
+  .message1{
+    margin-left: 0%;
+  }
+  .message2 {
+    margin-left: 10%;
+  }
+  .gmap{
+    width:100%;
+    height:300px;
+  }
+  .blogcon{
+    width: 100%;
+  }
+  .trailer {
+    width: 100%;
+    height: auto;
+  }
+}

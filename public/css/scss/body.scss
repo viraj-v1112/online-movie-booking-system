@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  word-spacing: 1px !important;
+  background: #f7f9fa;
+}
+
+h2 {
+  color: #0eb493;
+  letter-spacing: 2px;
+  font-size: 36px !important;
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  @media screen and (max-width: 367px) {
+    margin-top: 50px;
+  }
+  @media screen and( min-width: 1600px) {
+    font-size: 28px !important;
+    margin-top: 100px;
+  }
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.f-center {
+  float: center;
+}
+
+@import "header";
+@import "main";
+@import "footer";
+@import "slot";
+@import "user";
+@import "support";
+@import "payment";
+@import "blog";
